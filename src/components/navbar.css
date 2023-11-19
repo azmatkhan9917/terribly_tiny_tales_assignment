@@ -1,0 +1,61 @@
+/* NavbarComponent.css */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .vertical-rule {
+    height: 45px;
+    width: 1px;
+    background-color: #fff;
+    margin-right: 10px;
+  }
+
+  .stories {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .courses-button {
+    background-color: #ffcc00;
+    height: 45px;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .logo {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .vertical-rule {
+      height: 30px;
+    }
+  
+    .courses-button {
+      padding: 8px 16px;
+    }
+  }
+  

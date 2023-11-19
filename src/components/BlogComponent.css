@@ -1,0 +1,101 @@
+/* BlogComponent.css */
+
+.blog-container {
+    padding: 20px;
+  }
+  
+  .horizontal-rule {
+    border: 1px solid #413e3e;
+  }
+  
+  .blog-content {
+    margin-top: 20px;
+  }
+  
+  .blog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .blog-title {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .thumbs-up-container {
+    width: 30px;
+    height: 30px;
+    background-color: #ffcc00;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .thumbs-up {
+    width: 24px;
+    height: 24px;
+    
+    fill: #fff; /* Set the fill property to white for the SVG */
+  }
+  
+  .blog-paragraph {
+    margin-top: 20px;
+  }
+  
+  .blog-metadata {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #777;
+  }
+  
+  .author-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .thought-by {
+    color: #0066cc;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  .author-name {
+    font-weight: bold;
+  }
+  .date-views {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .date,
+  .views {
+    margin-right: 5px;
+  }
+  
+  .dot {
+    margin: 0 5px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .blog-title {
+      font-size: 1.5rem;
+    }
+  
+    .thumbs-up-container {
+        width: 30px;
+        height: 30px;
+      }
+    
+      .thumbs-up {
+        width: 18px;
+        height: 18px;
+      }
+    }
+  
