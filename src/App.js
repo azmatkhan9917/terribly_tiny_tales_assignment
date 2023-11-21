@@ -3,6 +3,7 @@ import Profile from './components/Profile';
 import Navbar from './components/Navbar';
 import './App.css';
 import BlogComponent from './components/BlogComponent';
+import LogoComponent from './components/LogoComponent';
 import blogData from './components/Data';
 
 
@@ -11,7 +12,11 @@ const App = () => {
     <div className="app">
       <Navbar/>
       <Profile />
-      <BlogComponent blogData={blogData} />
+      <LogoComponent/>
+      <BlogComponent blogData={blogData[0]} />
+      <BlogComponent blogData={blogData[1]} />
+      <BlogComponent blogData={blogData[0]} />
+      <BlogComponent blogData={blogData[1]} />
     </div>
   );
 };

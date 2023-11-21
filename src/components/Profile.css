@@ -1,83 +1,139 @@
-/* ProfileComponent.css */
-
 .profile-container {
-    width: 100%;
-  }
+  width: 100%;
+  margin: 0 auto;
+}
+
+.banner {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.ceo {
+  font-size: 20px;
+  margin-left: 4%;
+  margin-top: 20px;
+  color: #797272;
+}
+
+.ceo-p {
+  margin: 0;
+}
+
+.user-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-left: 4%;
+  margin-top: -35px;
+}
+
+.user-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 4%;
+}
+
+.user-details {
+  margin-top: 45px;
+
+}
+
+.username {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.user-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.follow-button {
+  margin-right: 10px;
+  padding: 5px 20px;
+  font-weight: bold;
+  color: #686464;
+  background-color: rgb(245, 244, 243);
+  height: 30px;
+  border: 2px solid rgb(59, 56, 56);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.follow-info {
+  display: flex;
+  color: #797272;
+  flex-direction: column;
+  margin: 5px 0;
   
+}
+.btn{
+  display: flex;
+  flex-direction: row;
+}
+
+.linkedin-link {
+  color: #3498db;
+  text-decoration: none;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+
   .banner {
     width: 100%;
-    height: 250px;
+    height: 180px;
     background-size: cover;
     background-position: center;
-     
   }
-  
+  .ceo {
+    font-size: 16px; 
+
+  }
   .user-section {
-    display: flex;
-    align-items: flex-start;
-    margin-left:40px;
-    margin-top: -35px; /* Overlapping the banner slightly */
+    
+    margin-left: 8%;
+    margin-top: 0;
   }
-  
+
   .user-image {
-    width: 150px;
-    height: 150px;
-     /* Example background color, adjust as needed */
-    border-radius: 50%;
-    margin-right: 20px;
-  }
-  
-  .user-details {
-    margin-top: 45px;
-    flex: 1;
-  }
-  
-  .username {
-    margin: 0;
+    width: 25%;
+    height: auto;
+    margin-right: 4%;
     margin-bottom: 10px;
-  }
-  
-  .user-buttons {
-    display: flex;
+    margin-top: -4%; 
+    
     
   }
-  
+
+  .user-details {
+    
+    text-align: left; 
+    margin-top: 0; 
+    
+  }
+  .follow-button,
+  .follow-info {
+    font-size: 10px;
+    
+  }
   .follow-button {
+    
+    
     margin-right: 10px;
-    padding: 5px 30px;
+    padding: 5px 10px;
     font-weight: bold;
-    color: #494444;
-    height: 40px;
-    border: 2px solid rgb(59, 56, 56);
+    color: #797272;
+    background-color: rgb(245, 244, 243);
+    height: 80%;
+    border: 2px solid #797272;
     border-radius: 10px;
     cursor: pointer;
   }
-  
-  .follow-info {
-    margin: 5px 0;
-  }
-  
-  .linkedin-link {
-    color: #3498db; /* Example color, adjust as needed */
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 10px;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .user-section {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .user-image {
-      margin-right: 0;
-      margin-bottom: 10px;
-    }
-  
-    .user-details {
-      text-align: center;
-    }
-  }
-  
+ 
+}

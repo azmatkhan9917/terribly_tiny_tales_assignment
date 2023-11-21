@@ -3,7 +3,6 @@ import './navbar.css';
 
 const Navbar = () => {
     const logo_url = process.env.PUBLIC_URL + './ttt.jpg';
-    
   return (
     <div className="navbar">
       <div className="logo-container">

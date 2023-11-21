@@ -1,0 +1,50 @@
+/* LogoComponent.css */
+
+.logo-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 4%;
+  }
+  
+  .logo-line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .circular-container {
+
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 50%;
+    
+    
+  }
+  .horizontal-rule{
+    border: 1px solid #413e3e;
+  }
+  .posts-info{
+    border-top: 2px solid black;
+    padding-right: 5px;
+    border-right: 2px solid black;
+  }
+  .logo-svg {
+    width: 18px;
+    height: 18px;
+    border: 2px #3498db;
+  }
+  
+  .logo-text {
+    margin: 0;
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+  
+  .posts-info {
+    font-weight: bold;
+    color: #3498db; /* Example color, adjust as needed */
+  }
+  

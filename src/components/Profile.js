@@ -17,16 +17,23 @@ const Profile = () => {
         <img className="user-image" src={profileData.userImageUrl} alt="User" />
           <div className="user-details">
             <h2 className="username">{profileData.username}</h2>
+            <div className = "btn">
             <div className="user-buttons">
             <button className="follow-button">6482</button>
-              <button className="follow-button">248</button>
+            <p className="follow-info">Followers</p>
             </div>
-            
-            <p className="follow-info">Followers Following</p>
-            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="linkedin-link">
-              LinkedIn
-            </a>
+            <div className='user-buttons'>
+              <button className="follow-button">248</button>
+              <p className="follow-info">Followers</p>
+            </div>
+            </div>
           </div>
+        </div>
+        <div className='ceo'>
+            <p className = 'ceo-p'>Co-founder & CEO at Terribly Tiny Tales</p>
+            <a href="https://www.linkedin.com/in/azmatkhan99/" target="_blank" rel="noopener noreferrer" className="linkedin-link">
+            https://www.linkedin.com/in/azmatkhan99/
+            </a>
         </div>
       </div>
     </div>
