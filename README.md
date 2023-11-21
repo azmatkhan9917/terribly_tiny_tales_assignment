@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+<h2>Terribly Tiny Tales Assignment</h2>
+This project is a React.js application developed for the Terribly Tiny Tales assignment. It is currently live and hosted on Vercel at https://terribly-tiny-tales-assignment-roan.vercel.app/.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3>Components</h3>
 
-## Available Scripts
+<h4>1. App Component</h4>
+The app component is the main component that orchestrates the application.
+Usage: Renders Navbar, Profile, LogoComponent, and multiple BlogComponent instances.
 
-In the project directory, you can run:
+<h4>2. Profile Component</h4>
+The Profile component renders the user profile screen. It includes a banner, a circular user image overlapping the banner, the user's username, follower and following buttons, and a link to the user's LinkedIn profile.
 
-### `npm start`
+<h4>3. Navbar Component</h4>
+The Navbar component represents the navigation bar at the top of the application. It includes a black background with a circular logo image, a vertical rule, and the text "STORIES" in bold. On the right side, there is a button labeled "Courses."
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h4>4. Logo Component</h4>
+The LogoComponent displays statistics and information in a responsive circular layout. It includes SVG icons for a star, thumbs up, eye, and heart, along with corresponding numeric values. The second line shows the total number of posts in bold blue.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h4>5. Blog Component</h4>
+The BlogComponent is responsible for displaying individual blog posts. It includes a title, content, author information, date, read time, and the number of views. The thumbs-up icon is also displayed, replacing the count with a circular boundary.
 
-### `npm test`
+<h4>6. CSS Flexibility and Media Queries</h4>
+The CSS files, such as Profile.css, Navbar.css, LogoComponent.css, and BlogComponent.css, utilize flexible containers and the @media property to ensure a consistent rendering experience across various mobile devices. This responsiveness enhances the user experience by adapting the layout to different screen sizes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h3>Libraries and Plugins</h3>
+React: JavaScript library for building user interfaces.
+Bootstrap: Front-end framework for responsive web development.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h4>How to Run</h4>
+Clone the repository: git clone https://github.com/your-username/your-repository.git<br>
+Navigate to the project folder: cd your-repository<br>
+Install dependencies: npm install<br>
+Start the development server: npm start<br>
+Additional Notes<br>
+This project integrates Bootstrap for a responsive and visually appealing design.<br>
+Customize the project by updating profile data, blog content, and other components as needed.<br>
+Contributions are welcome. Please follow the provided contribution guidelines.<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
