@@ -60,7 +60,8 @@
   color: #686464;
   background-color: rgb(245, 244, 243);
   height: 30px;
-  border: 2px solid rgb(59, 56, 56);
+  width: 90%;
+  border: 2px solid #797272;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -131,8 +132,9 @@
     color: #797272;
     background-color: rgb(245, 244, 243);
     height: 80%;
+    width: 90%;
     border: 2px solid #797272;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
   }
  

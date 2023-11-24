@@ -11,7 +11,8 @@
   .logo-line {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+     
+    
   }
   
   .circular-container {
@@ -27,13 +28,13 @@
     border: 1px solid #413e3e;
   }
   .posts-info{
-    border-top: 2px solid black;
+    
     padding-right: 5px;
-    border-right: 2px solid black;
+    
   }
   .logo-svg {
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
     border: 2px #3498db;
   }
   
@@ -46,5 +47,16 @@
   .posts-info {
     font-weight: bold;
     color: #3498db; /* Example color, adjust as needed */
+  }
+
+  @media (max-width: 768px) {
+    .logo-container1 {
+      margin-left: 2%; /* Adjust margin for smaller screens */
+      font-size: 13px;
+    }
+  
+    .circular-container {
+      padding: 3px; /* Adjust padding for smaller circular containers */
+    }
   }
   
